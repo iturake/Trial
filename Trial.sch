@@ -986,12 +986,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$4" gate="G$1" x="-129.54" y="-68.58" smashed="yes"/>
 <instance part="U$7" gate="G$1" x="-43.18" y="53.34" smashed="yes" rot="R270"/>
 <instance part="U$9" gate="G$1" x="-38.1" y="17.78" smashed="yes" rot="R180"/>
-<instance part="U$11" gate="G$1" x="-63.5" y="83.82" smashed="yes" rot="R270"/>
-<instance part="SUPPLY1" gate="G$1" x="-53.34" y="86.36" smashed="yes">
-<attribute name="VALUE" x="-53.34" y="89.154" size="1.778" layer="96" align="bottom-center"/>
+<instance part="U$11" gate="G$1" x="-68.58" y="55.88" smashed="yes" rot="R270"/>
+<instance part="SUPPLY1" gate="G$1" x="-58.42" y="58.42" smashed="yes">
+<attribute name="VALUE" x="-58.42" y="61.214" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND1" gate="1" x="-53.34" y="76.2" smashed="yes">
-<attribute name="VALUE" x="-53.34" y="75.946" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="-58.42" y="48.26" smashed="yes">
+<attribute name="VALUE" x="-58.42" y="48.006" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="-35.56" y="55.88" smashed="yes">
 <attribute name="VALUE" x="-35.56" y="58.674" size="1.778" layer="96" align="bottom-center"/>
@@ -1069,9 +1069,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="GND" class="0">
 <segment>
 <pinref part="U$11" gate="G$1" pin="GND"/>
-<wire x1="-58.42" y1="81.28" x2="-53.34" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="53.34" x2="-58.42" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="-53.34" y1="81.28" x2="-53.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="53.34" x2="-58.42" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="GND"/>
@@ -1131,9 +1131,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="5V" class="0">
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
-<wire x1="-53.34" y1="86.36" x2="-53.34" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="58.42" x2="-58.42" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="5V"/>
-<wire x1="-53.34" y1="83.82" x2="-58.42" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="55.88" x2="-63.5" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="5V"/>
